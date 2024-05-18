@@ -23,4 +23,4 @@ EXPOSE 5000
 # ...
 
 # Run the Flask development server
-CMD ["flask", "--app", "app", "run", "--host=0.0.0.0"]
+CMD ["python", "app.py"]
